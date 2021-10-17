@@ -1,0 +1,47 @@
+/*Movie cards */
+.card {
+	justify-self: flex-start;
+	aspect-ratio: 8 / 5;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-left: 0.5rem;
+	transition: transform 0.3s, display 0.3s;
+}
+
+.useful-card:hover > .card__info {
+	opacity: 1;
+}
+
+.useful-card:hover {
+	transform: scale(1.5);
+	z-index: 5;
+}
+
+.card__info {
+	position: relative;
+	top: 1rem;
+	background: #1b1b1b;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.2s;
+
+	padding: 0.3rem;
+}
+
+.round-btn {
+	border: 1px solid #696969;
+	background: #141414;
+	border-radius: 50%;
+	color: white;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.round-btn:hover {
+	border: 1px solid white;
+	cursor: pointer;
+}

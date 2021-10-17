@@ -1,0 +1,19 @@
+{
+  "name": "netflx-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server"
+  },
+  "author": "Jakub Cabala",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
